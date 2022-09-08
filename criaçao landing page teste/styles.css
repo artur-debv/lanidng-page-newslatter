@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background-color:rgb(34,34, 34);
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 15px;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+
+
+
+#title{
+    flex-direction:column;
+    line-height: 10px;
+}
+
+
+h1{
+    font-weight: 200;
+}
+
+
+main {
+    display: flex;
+    flex-direction:row;
+    margin-top: 50px;
+}
+
+
+h2{
+    font-size:50px;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+span{
+    color: rgb(132,14,201);
+}
+
+
+p{
+    line-height:20px;
+    max-width: 500px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 580px;
+}
+
+
+a{
+    color:white;
+    
+}
+
+a:hover{
+    color: rgb(132,14,201);
+    transition: 0.3s all ;
+}
+
+
+#inscreva-se-btn{
+    border: 2px solid rgb(132,14,201);
+    padding: 10px;
+    border-radius:20px;
+}
+
+#inscreva-se-btn:hover{
+    background-color:rgb(132,14,201);
+    color:white;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction:column;
+    width:70%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding:15px;
+    border-radius: 20px ;
+    border:none;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:973px){
+   
+    span{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    h1{
+        margin-left: 20px;
+    }
+
+    h2{
+        margin-left: 4px;
+    }
+
+
+    main{
+        margin-left: 5px;
+    }
+
+
+    form [type="submit"]{
+        width: 90%;
+        margin-left: 5px;
+    }
+  
+   
+
+}
+
+
+
+
+
+@media screen and (max-width:869px){
+   
+    span{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 17px;
+        width: 326px;
+    }
+
+    h1{
+        margin-left: 20px;
+    }
+
+    h2{
+        margin-left: 4px;
+        font-size: 32px;
+    }
+
+
+    main{
+        margin-left: 5px;
+    }
+
+
+    form [type="submit"]{
+        width: 90%;
+        margin-left: 5px;
+    }
+
+
+
+    img{
+        margin-left: -16px;
+        width: 520px;
+        margin-top: 20px;
+    }
+  
+
+
+
+}
+
+
+
+
+
+.menu-icon{
+    width: 25px;
+    margin-right: 15px;
+    display: none;
+}
+
+
+
+@media screen and (max-width:768px){
+    main{
+        display: none;
+    }
+
+    .menu{
+        position: relative;
+        top: 147px;
+        left: -17px;
+    }
+   
+    .menu-icon{
+        width: 42px;
+        margin-left: 578px;
+        display: block;
+        margin-top: -134px;
+    }
+
+
+    .li-link{
+        display: block;
+        margin-top: 5px;
+    }
+
+
+    li{
+        margin: 16px;
+    }
+
+
+    #inscreva-se-btn{
+        font-size: 10px;
+    }
+
+
+    h1{
+        margin-left: -3px;
+    }
+
+}
+
+
+
+
+
+
